@@ -46,7 +46,7 @@ export default function Home() {
           </Form.Group>
         </Col>
       </Row>
-      <div>total de dias: {handleResult()}</div>
+      <div>total de dias: {handleResult() || 0}</div>
     </div>
   );
 }
